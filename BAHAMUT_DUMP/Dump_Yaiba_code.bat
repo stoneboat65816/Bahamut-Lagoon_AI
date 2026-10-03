@@ -1,0 +1,1 @@
+dispel -n -p -r F03141-F0FFFF -o dis.txt Baha.sfc
