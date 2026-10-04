@@ -1,12 +1,12 @@
 arch snes.cpu
 exhirom
 
-org $700000
+org $7A0000
 font:
 	incbin "BAHAMUT_FONT/font.bin"
 hajimari:
 	incbin "BAHAMUT_FONT/hajimari.bin"
-org $710000
+org $7B0000
 	incbin "BAHAMUT_FONT/font_vn.bin"
 org $F204C1
 	db $CC, $7C, $FA, $18, $81
@@ -143,8 +143,8 @@ temporary:
 	db $04
 	dl $36DFF8, $37EFF8, $3EFDF8, $3F0DF8
 
-define FontBank0 		$700000
-define FontBank1 		$710000
+define FontBank0 		$7A0000
+define FontBank1 		$7B0000
 define PrevChar			$3166E0
 define shift						$3166E2
 define MaxWidth			$3166E4
